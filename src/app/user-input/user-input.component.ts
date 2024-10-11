@@ -19,7 +19,7 @@ export class UserInputComponent {
   onSubmit() {
     this.calculate.emit({
       initialInvestment: +this.enteredIntialInv,
-      annualInvestment: +this.enteredAnnualInc,
+      annualInvestment: +this.enteredAnnualInc ,
       duration: +this.enteredDuration,
       expectedReturn: +this.enteredExpected,
     });
